@@ -1,0 +1,14 @@
+<section id="clientes">
+  <div class="container">
+    <h2>Clientes</h2>
+    <div class="cards logos">
+      {% for cliente in site.clientes %}
+      <div class="card">
+        <a href="javascript:void(0)" class="grid-item">
+          <img src="{{cliente.image}}" alt="{{cliente.title}}">
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

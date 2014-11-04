@@ -1,0 +1,41 @@
+#depoimentos {
+  background: #E96A42;
+  color: #FFF;
+  padding: 40px 0;
+
+  .testimonial {
+    margin: 0 100px;
+
+    blockquote {
+      color: #FFF;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 1.5em;
+      line-height: 1.2;
+      border: none;
+      margin: 0;
+      padding: 0;
+      position: relative;
+
+      .icon-quote-open,
+      .icon-quote-close {
+        display: block;
+        font-size: 3em;
+        position: absolute;
+      }
+      .icon-quote-open {
+        top: 0;
+        left: -100px;
+      }
+      .icon-quote-close {
+        bottom: 0;
+        right: -100px;
+      }
+    }
+
+    .testimonial-name {
+      font-weight: bold;
+      margin: 0;
+    }
+  }
+}

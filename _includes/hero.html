@@ -1,0 +1,13 @@
+<div class="hero" data-vide-bg="/videos/1_abacaxi"  data-vide-options="muted: true">
+  {% for apresentacao in site.apresentacao %}
+    <div class="hero-inner">
+      <h1><a href="index.html">
+        <img src="images/logo-negative.svg" alt="Instituto Mutirão">
+      </a></h1>
+      <div class="hero-copy">
+        {{ apresentacao.content }}
+      </div>
+      <a href="mailto:{{site.email}}" class="button black">Entre em contato</a>
+    </div>
+  {% endfor %}
+</div>

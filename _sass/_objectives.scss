@@ -1,0 +1,42 @@
+#objetivos {
+  background-color: #F1F1F1;
+  padding: 40px 0;
+  // color: #FFF;
+
+  h2 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .25);
+    margin-bottom: 20px;
+  }
+
+  .bullets {
+    overflow: hidden;
+    li.bullet.three-col-bullet {
+      height: 6em;
+    }
+  }
+
+  .bullet-icon {
+    background: none;
+    padding: 0;
+    width: 1.2em;
+    height: auto;
+    border-radius: none;
+
+    [class^="icon-"], [class*=" icon-"] {
+      font-size: 4em;
+    }
+  }
+
+  .bullet-content {
+    margin-top: .5em;
+    margin-bottom: .5em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  #objetivos .bullet-content {
+    padding-top: .5em;
+    // margin-bottom: 1.5em;
+  }
+}

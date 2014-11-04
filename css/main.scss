@@ -1,0 +1,35 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat/neat";
+
+$fa-font-path: "/fonts/";
+@import "font-awesome/font-awesome";
+
+@import "icons";
+@import "button";
+@import "objectives";
+@import "cases";
+@import "clientes";
+@import "depoimentos";
+@import "oss";
+@import "na-midia";
+@import "equipe";
+
+@import "navigation";
+@import "hero";
+@import "bullets";
+@import "cards";
+@import "griditems";
+@import "footer";
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  section > .container > h2 {
+    text-align: center;
+  }
+}
+@import "layout";

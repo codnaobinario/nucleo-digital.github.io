@@ -1,0 +1,21 @@
+# Site settings
+title: Núcleo Digital
+description: Aplicações e Metodologias Digitais
+analytics_id: UA-XXXXX-X
+email: contato@nucleodigital.cc
+github: nucleo-digital
+
+collections:
+- apresentacao
+- objetivos
+- cases
+- clientes
+- depoimentos
+- oss
+- midia
+- equipe
+
+# Build settings
+markdown: kramdown
+
+gems: [jekyll-sass-converter]

@@ -1,0 +1,19 @@
+<section id="equipe">
+  <div class="container">
+    <h2>Equipe</h2>
+    <div class="grid-items-lines">
+      {% for member in site.equipe %}
+        <a href="javascript:void(0)" class="grid-item">
+          <img src="{{ member.photo }}" alt="">
+          <div class="description">
+            {{ member.content }}
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+
+    <div class="call-to-action">
+      <a href="mailto:equipe@nucleodigital.cc" class="button white">Venha fazer parte da equipe</a>
+    </div>
+  </div>
+</section>

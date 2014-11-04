@@ -1,0 +1,14 @@
+<section id="software-livre">
+  <div class="container">
+    <h2>Software livre e código aberto</h2>
+    {% for oss in site.oss %}
+      <div class="intro-text">
+        <img class="logo" src="/images/software-livre.svg" alt="Logo Open Source">
+        {{ oss.content }}
+      </div>
+      <div class="call-to-action">
+        <a href="https://github.com/{{site.github}}" class="button white">Mutirão no Github</a>
+      </div>
+    {% endfor %}
+  </div>
+</section>

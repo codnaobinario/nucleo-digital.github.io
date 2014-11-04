@@ -1,0 +1,12 @@
+<section id="na-midia">
+  <div class="container">
+    <h2>Na mídia</h2>
+    <div class="grid-items-lines">
+      {% for midia in site.midia %}
+        <a href="{{midia.link}}" class="grid-item">
+            {{ midia.content }}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

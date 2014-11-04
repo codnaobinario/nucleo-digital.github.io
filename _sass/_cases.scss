@@ -1,0 +1,36 @@
+#cases {
+  background: #58a5cd;
+  padding: 40px 0;
+
+  .card {
+    background-color: #58a5cd;
+    color: #FFF;
+    height: 15em;
+    border:1px solid #58a5cd;
+    box-shadow: none;
+    cursor: default;
+
+    &:hover {
+      // box-shadow: 2px 2px 4px rgba(255,255,255, .5);
+      // border:1px solid #fff;
+    }
+
+    .card-image {
+      img {
+        background-color: #58a5cd;
+      }
+    }
+
+    .card-header {
+      background-color: #58a5cd;
+      border-bottom: 0;
+    }
+  }
+
+  h2 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .25);
+    margin-bottom: 40px;
+    color: #FFF;
+  }
+}

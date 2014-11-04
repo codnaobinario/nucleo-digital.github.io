@@ -1,0 +1,17 @@
+<section id="objetivos">
+  <div class="container">
+    <h2>Objetivos</h2>
+    <ul class="bullets">
+      {% for objetivo in site.objetivos %}
+        <li class="bullet three-col-bullet">
+          <div class="bullet-icon">
+            <span class="icon-{{objetivo.icon}}"></span>
+          </div>
+          <div class="bullet-content">
+            {{objetivo.content}}
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
