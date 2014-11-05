@@ -5,7 +5,9 @@
       {% for case in site.cases %}
         <div class="card">
           <div class="card-image">
-            <img src="{{case.image}}">
+            <a href="{{case.link}}" target="_blank">
+              <img src="{{case.image}}">
+            </a>
           </div>
           <div class="card-header">
             {{case.title}}
