@@ -4,4 +4,4 @@ logo: https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/
 
 ### Inovação em participação através da Internet
 
-Desenvolvemos meios pela perspectiva digital que conectam sua organização ao seu público-alvo. Nossa equipe experiente, enxuta e ágil atende sua necessidade com um pé nas costas.
+Desenvolvemos meios que conectam governos e organizações à sociedade, pela perspectiva digital. Nossa equipe compacta, experiente e ágil atende com um pé nas costas às demandas por participação, controle social e transparência.
