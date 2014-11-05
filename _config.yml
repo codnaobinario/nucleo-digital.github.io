@@ -19,3 +19,4 @@ collections:
 markdown: kramdown
 
 gems: [jekyll-sass-converter]
+exclude: ["vendor"]
