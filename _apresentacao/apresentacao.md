@@ -2,6 +2,6 @@
 logo: https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1.png
 ---
 
-### Inovação em participação através da Internet
+### Desenvolvemos tecnologias para os líderes do século 21
 
-Desenvolvemos meios que conectam governos, organizações e empresas à sociedade. Nossa equipe compacta, experiente e ágil entrega rapidamente soluções simples e atraentes que atendem às demandas por participação e transparência, pela perspectiva digital.
+Somos uma rede de planejadores, designers, programadores e comunicadores com a missão de unir as pessoas pela inovação social e política, através de novas tecnologias cívicas e governamentais.
